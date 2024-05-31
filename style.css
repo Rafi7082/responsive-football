@@ -1,14 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 body {
-    background-color: white;
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
 
 header {
-    width: 1280px;
+    width: 100%;
     margin: 0 auto;
     background-color: #2D25A0;
 }
@@ -17,7 +16,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-
 }
 
 .main-menu ul {
@@ -27,23 +25,17 @@ header {
 .main-menu ul li {
     list-style: none;
     padding: 10px;
-
-
 }
 
 .main-menu ul li a {
     text-decoration: none;
     color: white;
-
-
-
 }
 
 .anchor-menu {
 
     margin-right: 50px;
 }
-
 
 .fa-arrow-right {
     padding-right: 5px;
@@ -59,14 +51,15 @@ header {
     text-decoration: none;
 }
 
+
 /* banner-stle--------------------- */
+
+
 .banner-header h1 {
     color: white;
     width: 485px;
     font-size: 64px;
     padding-left: 50px;
-
-
 }
 
 .banner {
@@ -85,6 +78,7 @@ header {
 }
 
 /* players-style---------------------------- */
+
 .first-section {
     width: 990px;
     padding-top: 40px;
@@ -97,15 +91,13 @@ header {
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     grid-gap: 20px;
-
-
 }
 
 .player {
     width: 330px;
     padding: 15px;
     box-shadow:
-        0px 0px 40px rgba(0, 0, 0, 0.15);
+        2px 2px 40px rgba(0, 0, 0, 0.15);
 }
 
 .player-image img {
@@ -145,4 +137,100 @@ header {
 
 .social-site img {
     width: 32px;
+}
+
+/* -------responsive-layout-------- */
+
+
+@media only screen and (max-width:600px) {
+
+    .menu {
+        flex-direction: column;
+
+    }
+
+    .main-menu ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .anchor-menu {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+
+    /* /* .....banner----- */
+
+
+    .banner {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .banner-header h1 {
+        font-size: 40px;
+        width: 0;
+        padding-left: 0;
+        width: 300px;
+    }
+
+    .banner-image img {
+        width: 70%;
+        height: 70%;
+        margin-left: 65px;
+    }
+
+    .anchor-menu2 {
+        margin-left: 20px;
+    }
+
+
+    /* -----first-section----- */
+
+
+    .first-section {
+        width: 100%;
+    }
+
+    .players {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    /* .second-section------- */
+
+
+    .second-section {
+        flex-direction: column;
+    }
+
+    .deatil-header {
+        width: 300px;
+        font-size: 34px;
+        padding-left: 30px;
+    }
+
+    .section-details {
+        padding: 20px;
+    }
+
+    .section-text {
+        width: 300px;
+        padding-left: 40px;
+    }
+
+    .section-image img {
+        width: 90%;
+        height: 50%;
+    }
+
+    .anchor-menu3 {
+        margin-left: 90px;
+    }
+
 }
