@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    width: 1280px;
+    margin: 0 auto;
+    background-color: #2D25A0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-menu ul {
+    display: flex;
+}
+
+.main-menu ul li {
+    list-style: none;
+    padding: 10px;
+
+
+}
+
+.main-menu ul li a {
+    text-decoration: none;
+    color: white;
+
+
+
+}
+
+.anchor-menu {
+
+    margin-right: 50px;
+}
+
+
+.fa-arrow-right {
+    padding-right: 5px;
+}
+
+.anchor-style {
+    width: 123px;
+    height: 44px;
+    color: white;
+    text-align: center;
+    background-color: #E02C6D;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+/* banner-stle--------------------- */
+.banner-header h1 {
+    color: white;
+    width: 485px;
+    font-size: 64px;
+    padding-left: 50px;
+
+
+}
+
+.banner {
+    display: flex;
+}
+
+.banner-image img {
+    width: 556px;
+    height: 438px;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.second-anchor {
+    margin-left: 50px;
+}
+
+/* players-style---------------------------- */
+.first-section {
+    width: 990px;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+
+.players {
+    justify-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    grid-gap: 20px;
+
+
+}
+
+.player {
+    width: 330px;
+    padding: 15px;
+    box-shadow:
+        0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-image img {
+    width: 330px;
+}
+
+/* second- section-------------------------------- */
+
+.second-section {
+    display: flex;
+}
+
+.deatil-header {
+    font-size: 48px;
+    width: 470px;
+    margin-right: 20px;
+}
+
+.section-image img {
+    width: 557px;
+    height: 427px;
+    margin-left: 20px;
+}
+
+/* footer---------------------------------- */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-image img {
+    width: 263px;
+    height: 100px;
+}
+
+.social-site img {
+    width: 32px;
+}
