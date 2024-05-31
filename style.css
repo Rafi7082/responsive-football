@@ -234,3 +234,57 @@ header {
     }
 
 }
+
+/* ------------2nd media Querry---------- */
+
+
+@media only screen and (min-width:600px) and (max-width:900px) {
+
+    .main-menu ul {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .second-anchor {
+        margin-left: 200px;
+    }
+
+    .banner-image img {
+        margin-left: 40px;
+    }
+
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        grid-gap: 5px;
+
+
+    }
+
+    .player {
+        padding: 10px;
+    }
+
+    .player-details p,
+    h3 {
+        padding: 0 10px;
+    }
+
+    .first-section {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .second-section {
+        flex-direction: column;
+    }
+
+    .section-image img {
+        margin-top: 40px;
+    }
+
+}
